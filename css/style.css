@@ -1,0 +1,195 @@
+
+:root{
+    --bg-color:rgb(245,245,245);
+    --bg-color:rgb(245,245,245,0.75);
+    --color-n:#282828;
+    --color-mc:#BF9774;
+    --color-mo:#8C6F51;
+    --color-b:#f3f3f2;
+    --color-g:#D3AF35
+
+}
+
+
+body{
+    font-family: "SaunaPro-Regular";
+    background-color: #F3EFEBff;
+    color:var(--color-n);
+    
+}
+
+@font-face {
+    font-family: "SaunaPro-Regular";
+    src: url(../assets/font/SaunaPro-Regular.ttf);
+}
+
+
+
+.logo{
+    text-align: center;
+    margin-bottom: 1rem ;
+}
+
+
+.navbar-logo img{
+    margin: auto;
+    width: auto;
+    height: 15rem;
+}
+
+
+.navbar-nav{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(40, 40, 40);
+    height: auto;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-nav a{
+    color: #f3f3f2;
+    text-align: center;
+    font-size: 1.10rem;
+    
+}
+
+.navbar-collapse{
+    width: auto;
+}
+
+.dropdown-menu{
+    background-color:var(--color-n);
+    min-width:auto;
+}
+
+.nav-link {
+    transition: all 1s ease;
+
+}
+.dropdown-menu a{
+    font-size: 0.95rem;
+    text-align: left;
+    transition: all 1s ease;
+
+}
+
+.dropdown-item{
+    width: auto;
+}
+.dropdown-item:hover{
+    color:var(--color-g);
+    background-color: var(--color-n);
+    
+}
+
+.nav-link:hover{
+    color: var(--color-g);
+    
+    
+}
+
+.nav-link:focus{
+    color: var(--color-g);
+
+}
+
+.bg-dark{
+    background-color: var(--color-n) !important;
+}
+
+.navbar-dark .navbar-toggler{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: all 0.4s ease;
+}
+.navbar-dark .navbar-toggler:hover{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28211, 175, 53, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    opacity: 1;
+}
+
+
+
+.current-page{
+    font-weight: bolder
+}
+
+.ofertas{    
+    margin: 0;
+    text-align: center;
+    background: rgb(211,175,53);
+    background: radial-gradient(circle, rgba(211,175,53,0.958420868347339) 41%, rgba(243,243,242,1) 100%);
+    height: auto;
+    font-weight: bolder;
+}
+
+.navbar-toggler{
+    width: 100%;
+    background-color:rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color:var(--color-b);
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    color:var(--color-g);
+}
+
+footer{
+    height: auto;
+    background-color:rgb(40, 40, 40,0.85);
+    color: var(--color-b);
+}
+
+.arriba a{
+    text-decoration: none;
+    width: auto;
+}
+
+.bg-red{
+    background-color: rgba(225, 184, 118, 0.8) ;
+}
+
+.bg-grey{
+    background-color: rgba(179, 179, 174, 0.785);
+
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {  
+.navbar-nav{
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+    
+}
