@@ -2,7 +2,7 @@
   --bg-color: rgb(245, 245, 245);
   --bg-color: rgb(245, 245, 245, 0.75);
   --color-n: #282828;
-  --color-mc: #bf9774;
+  --color-mc: #be9876;
   --color-mo: rgb(139, 111, 80);
   --color-b: #f3f3f2;
   --color-g: #d3af35;
@@ -236,8 +236,8 @@ footer {
   opacity: 0.6;
 }
 
-.producto{
-    border-radius: 60px;
+.producto {
+  border-radius: 60px;
 }
 
 /* // Small devices (landscape phones, 576px and up) */
