@@ -240,6 +240,10 @@ footer {
   border-radius: 60px;
 }
 
+.catalog {
+  list-style-type: none;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .navbar-nav {
